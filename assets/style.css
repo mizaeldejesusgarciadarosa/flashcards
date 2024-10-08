@@ -1,3 +1,5 @@
+body
+{
 background-color: bisque;
 font-family: Bai Jamjuree;
 }
@@ -10,7 +12,7 @@ width: 100%;
 height: 0.2rem;
 }
 footer p {
-text-alibody{
+text-alibody
 gn: center;
 font-size: 0.6rem;
 margin-top: 0.5rem;
