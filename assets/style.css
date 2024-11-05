@@ -30,13 +30,13 @@
     }
     
     .cartao {
-    margin: 1rem;
-    background-color: antiquewhite;
-    
-    width: 200px;
-    height: 300px;
-    perspective: 1000px;
-    }
+        margin: 1rem;
+        background-color: rgb(0, 89, 255);
+        height: 20rem;
+        flex-grow: 1;
+        flex-basis: calc(33% - 2rem); /* Corrigido o cálculo do espaço */
+        perspective: 1000px; /* Adiciona perspectiva para o efeito de rotação */
+        }
     
     .cartao__conteudo {
     position: relative;
