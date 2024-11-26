@@ -81,9 +81,21 @@
 <div class="cartao__conteudo__pergunta"> <p>Qual a velocidade máxima da fan 160?</p></div>
 <div class="cartao__conteudo__resposta"> <p>Consegue atingir a marca de 142 km/h.</p> </div>
 </div>
+
+<script>
+    // Seleciona todos os cartões
+    document.querySelectorAll('.cartao').forEach(cartao => {
+    // Adiciona o evento de clique
+    cartao.addEventListener('click', () => {
+    // Alterna a classe `is-flipped` no cartão ao ser clicado
+    cartao.classList.toggle('is-flipped');
+    });
+    });
+    </script>
 </article>
 </section>
 </main>
+
 <footer>
 <p> Projeto desenvolvido pela Alura, sem fins lucrativos</p>
 </footer>
